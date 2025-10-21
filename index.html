@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/images/icons/download.jfif" type="image/x-icon">
+  <title>ارائه ی گروه دوم</title>
+</head>
+<body>
+  <header>
+    <a href="#">قرعه کشی برای سوال</a>
+    <p>تعداد سوالات : <span id="QsNumber">0</span></p>
+  </header>
+  <main>
+    <div class="slider">
+      <nav>
+        <i id="prev" onclick="prevSlide();">&rarr;</i>
+        <div>
+          <i id="slide-number">1</i>
+          <i id="full-screen" onclick="toggleFullScreen()">&#10021;</i>
+        </div>
+        <i id="next" onclick="nextSlide();">&larr;</i>
+      </nav>
+    </div>
+    <div class="classmates"></div>
+  </main>
+  <footer><p id="footer-text"><span>اعضای گروه : </span><span>فرهام نورانی</span><span>محمدرضا متعالی جهرمی</span><span>امیرحسین معینی</span></p></footer>
+  <script src="./assets/js/app.js" async defer></script>
+</body>
+</html>
