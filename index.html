@@ -9,10 +9,11 @@
 </head>
 <body>
   <header>
-    <a href="#">قرعه کشی برای سوال</a>
+    <a href="#" class="lottery"><img src="./assets/images/icons/lottery.png" alt="قرعه کشی" onclick="lottery()"></a>
     <p>تعداد سوالات : <span id="QsNumber">0</span></p>
   </header>
   <main>
+    <menu></menu>
     <div class="slider">
       <nav>
         <i id="prev" onclick="prevSlide();">&rarr;</i>
@@ -25,6 +26,12 @@
     </div>
     <div class="classmates"></div>
   </main>
+  <div class="alert">
+    <h1 class="title">برنده ی قرعه کشی</h1>
+    <p class="text"></p>
+    <button class="close" id='close' onclick="close()">بستن</button>
+    <button class="reset">ریست کردن</button>
+  </div>
   <footer><p id="footer-text"><span>اعضای گروه : </span><span>فرهام نورانی</span><span>محمدرضا متعالی جهرمی</span><span>امیرحسین معینی</span></p></footer>
   <script src="./assets/js/app.js" async defer></script>
 </body>
